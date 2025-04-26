@@ -1,0 +1,11 @@
+name: hey-kissan-agri-assistant
+description: "Finetuned LLaMA-7B model for answering agriculture-related queries"
+predict: predict.py:predict
+
+requirements:
+  - torch
+  - transformers
+  - peft
+  - accelerate
+  - bitsandbytes
+  
